@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New account</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e07458d72a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">New account</h1>
+    </header>
+    <main>
+        <form action="index_loggedIn.html">
+            <fieldset>
+                <label for="fname">Firstname:</label>
+                <input type="text" id="fname">
+                <label for="lname">Lastname:</label>
+                <input type="text" id="lname">
+                <label for="studie">Study:</label>
+                <select name="study" id="studie">
+                    <option value="cmd">Communication & Multimedia Design</option>
+                    <option value="com">Communication</option>
+                    <option value="nur">Nursing</option>
+                    <option value="ict">ICT</option>
+                    <option value="eco">Economicss</option>
+                    <option value="fas">Fasion</option>
+                    <option value="pab">Pabo</option>
+                </select>
+                <label for="uName">Username:</label>
+                <input type="text" id="uName">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <label for="pWord">Password:</label>
+                <input type="password" id="pWord">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form> 
+    </main>
+    <nav>
+        <a href="login.html" class="footer_left">Go back</a>
+    </nav>
+</body>
+</html>
